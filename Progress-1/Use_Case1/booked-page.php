@@ -8,20 +8,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="back-button">&#60</div>
+        <?php include 'back-button.html';?>
         <div class="tempat-foto"></div>
 
-        <h1>Teks berhasil</h1>
+        <h1>Teks berhasil Online</h1>
         <p>teks keterangan <strong>di sini</strong></p>
         <p>teks lainnya disini</p>
 
         <button class = "button-link">get link here</button>
-        <nav class="bottom-nav">
-            <div class="nav-item">Home</div>
-            <div class="nav-item">Message</div>
-            <div class="nav-item">History</div>
-            <div class="nav-item">Profil</div>
-        </nav>
+        <?php include 'navigasi.html';?>
     </div>
 </body>
 </html>

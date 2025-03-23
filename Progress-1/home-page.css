@@ -72,11 +72,13 @@ h2 {
 .bottom-nav {
     display: flex;
     justify-content: space-around;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
+    padding: 15px 0;
     border-top: 1px solid;
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    left: 0;
 }
 
 .nav-item{

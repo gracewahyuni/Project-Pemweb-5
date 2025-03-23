@@ -16,7 +16,7 @@ body {
     text-align: center;
 }
 
-.logo {
+header {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -51,18 +51,13 @@ body {
     color:whitesmoke;
     padding: 10px;
     border: none;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
 }
 
-.forgot-password{
+.forgot-password {
     text-align: right;
     font-size: 12px;
     margin-top: 15px;
-    font-weight: bold;
-}
+    font-weight: bold;}

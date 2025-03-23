@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="login-page.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="logo">UMATTER</h1>
+    <div class="container">  
+        <?php include 'header-logo.html';?>
         <h2 class="daftar">Register</h2>
         <p class="sub-daftar">Create your new account</p>
         <form>

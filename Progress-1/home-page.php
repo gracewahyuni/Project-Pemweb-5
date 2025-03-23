@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home-page.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,21 +20,7 @@
                 <div class="option">Community</div>
             </div>
         </div>
-        <div  class= "navigasi"> 
-        <div class="bottom-nav">
-            <div class="nav-item">
-                <p>Home</p>
-            </div>
-            <div class="nav-item">
-                <p>Message</p>
-            </div>
-            <div class="nav-item">
-                <p>History</p>
-            </div>
-            <div class="nav-item">
-                <p>Account</p>
-            </div>
-        </div>
-    </div>
+        <?php include 'navigasi.html';?>
+</div>
 </body>
 </html>

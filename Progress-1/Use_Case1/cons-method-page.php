@@ -8,10 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <!-- <header>
-            <a href="#" class="back-button">&#60;</a>
-        </header> -->
-        <div class="back-button">&#60</div>
+        <?php include 'back-button.html';?>
         <h1>Metode Konsultasi</h1>
         <select class="dropdown">
             <option>Online</option>
@@ -23,12 +20,8 @@
             <input type="text" placeholder="20/06/2025">
             <span class="calendar-icon">&#128197;</span>
         </div>
-        <nav class="bottom-nav">
-            <div class="nav-item">Home</div>
-            <div class="nav-item">Message</div>
-            <div class="nav-item">History</div>
-            <div class="nav-item">Profil</div>
-        </nav>
+        <button type="submit" class="tombol">Confirm</button>
+        <?php include 'navigasi.html';?>
     </div>
 </body>
 </html>
