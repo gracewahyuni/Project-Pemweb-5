@@ -8,7 +8,6 @@ body {
 h1{
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
     margin-top: 130px;
 }
 
@@ -22,9 +21,6 @@ h2 {
 
 .pilihan-container {
     background: white;
-    max-width: 100%;
-    margin: 0 auto;
-    border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 5rem;
 }
@@ -34,13 +30,8 @@ h2 {
     align-items: center;
     justify-content: center;
     border: 1px solid;
-    text-align: center;
-    padding: 25px;
-    border-radius: 10px;
-    bottom: 10px;
     font-size: 15px;
-    font-weight: bold;
-    height: 120px;
+    height: 130px;
 }
 
 .option:hover {
@@ -48,13 +39,12 @@ h2 {
 }
 
 .bottom-nav {
-    background: white;
-    border-top: 1px solid black;
     display: flex;
     text-align: center;
 }
 
 .nav-item {
+    font-size: 12px;
     flex: 1;
     padding: 10px;
     font-weight: bold;
