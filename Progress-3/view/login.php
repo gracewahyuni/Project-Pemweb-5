@@ -1,3 +1,14 @@
+<!-- PERCOBAAN  -->
+<?php
+// login.php
+session_start();
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $_SESSION['user'] = $_POST['username'];
+    header('Location: home.php');
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,10 +27,10 @@
             <p class="text-muted">Create your new account</p>
         </div>
 
-        <form class="mt-3">
-            <input type="text" class="form-control mb-3" placeholder="Username">
-            <input type="email" class="form-control mb-3" placeholder="Email">
-            <input type="password" class="form-control mb-3" placeholder="Password">
+        <form class="mt-3" method="post" action="?c=Login&m=doLogin">
+            <input type="text" name="username" class="form-control mb-3" placeholder="Username">
+            <input type="email" name="email" class="form-control mb-3" placeholder="Email">
+            <input type="password" name="password" class="form-control mb-3" placeholder="Password">
             <button type="submit" class="btn btn-dark w-100 py-2 fw-bold">Login</button>
         </form>
 
