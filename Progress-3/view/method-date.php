@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="method.css">
+    <link rel="stylesheet" href="view/method.css">
     <title>Method and Schedule</title>
 </head>
 <body>
     <div class="container mt-3">
-        <a href="?c=Home&m=index" class="back-button text-dark fs-3">&#60;</a>
+        <a href="?c=Home&m=index" class="back-button text-dark fs-3 border-0">&#60;</a>
         
-        <form method="POST" action="">
+        <form method="POST" action="?c=Consultation&m=konfirmasi">
         <h1 class="method fw-bold mt-3">Metode Konsultasi</h1>
         <select class="form-select" name="metode" required>
-            <option>Online</option>
-            <option>Offline</option>
+            <option value="online">Online</option>
+            <option value="offline">Offline</option>
         </select>
 
         <h1 class="schedule fw-bold mt-4">Schedule</h1>

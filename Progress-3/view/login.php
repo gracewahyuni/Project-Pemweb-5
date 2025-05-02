@@ -1,14 +1,3 @@
-<!-- PERCOBAAN  -->
-<?php
-// login.php
-session_start();
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $_SESSION['user'] = $_POST['username'];
-    header('Location: home.php');
-    exit();
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

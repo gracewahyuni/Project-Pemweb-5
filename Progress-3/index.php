@@ -1,5 +1,5 @@
 <?php
-$c = $_GET['c'] ?? 'Home';
+$c = $_GET['c'] ?? 'Login';
 $m = $_GET['m'] ?? 'index';
 
 require_once("controller/Controller.class.php");
