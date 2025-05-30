@@ -12,7 +12,7 @@ class Login extends Controller {
         $password = $_POST['password'];
 
         $model = $this->model('UserModel');
-        $user = $model->auth($username, $password);
+        $user = $model->auth($username);
 
         if (!$user) {
         // Jika belum ada, maka register otomatis (karena kamu tidak punya doRegister)

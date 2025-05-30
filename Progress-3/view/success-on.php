@@ -14,7 +14,7 @@
         <div class="tempat-foto mx-auto"></div>
 
         <h1 class="fw-bold text-start mt-4">Yay! You’re Scheduled!</h1>
-        <p class="text-start"><strong>Dr. John</strong> will be waiting for your attendance, please <strong>don’t be late!</strong></p>
+        <p class="text-start"><strong>Your doctor</strong> will be waiting for your attendance, please <strong>don’t be late!</strong></p>
         <p class="text-start">You can attend your consultation <strong>here!</strong></p>
 
         <button class="button-link btn btn-outline-dark fw-bold w-100 ">Get Zoom Link!</button>

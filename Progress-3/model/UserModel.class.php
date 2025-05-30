@@ -1,8 +1,8 @@
 <?php
 class UserModel extends Model {
-    function auth($username, $password) {
-        $stmt = $this->db->prepare("SELECT * FROM user WHERE username = ? AND password = ?");
-        $stmt->bind_param("ss", $username, $password);
+    function auth($username) {
+        $stmt = $this->db->prepare("SELECT * FROM user WHERE username = ?");
+        $stmt->bind_param("s", $username);
         $stmt->execute();
         $result = $stmt->get_result();
         return $result->fetch_assoc();
