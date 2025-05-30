@@ -10,7 +10,8 @@
 <body>
     <div class="d-flex flex-column justify-content-between vh-100">
         <div class="text-center">
-            <h1 class="fw-bold">Hello, <?= $_SESSION['username'] ?? 'User' ?>!</h1>
+            
+            <h1 class="fw-bold">Hello, <?= $_SESSION['user']['username'] ?? 'User' ?>!</h1>
         </div>
         
         <div class="pilihan-container mt-4 p-4 rounded shadow">

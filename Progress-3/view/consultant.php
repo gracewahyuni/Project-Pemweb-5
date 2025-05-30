@@ -17,7 +17,7 @@ sampe sini -->
         <a href="?c=Home&m=index" class="back-button text-dark fs-3 border-0">&#60;</a>
         
         <?php foreach ($konsultans as $konsultan): ?>
-        <a href="?c=Consultation&m=pilihJadwal&id=<?= $konsultan['id'] ?>">
+        <a href="?c=Consultation&m=pilihJadwal&id=<?= $konsultan['consultant_id'] ?>">
         <div class="card mb-3 border-solid justify-content-center">
             <div class="row g-0 d-flex align-items-center ps-2">
                 <div class="col-auto">
@@ -25,10 +25,11 @@ sampe sini -->
                 </div>
                 <div class="col-8">
                     <div class="card-body p-3">
-                        <h5 class="card-title"><?= htmlspecialchars($konsultan['nama']) ?></h5>
-                        <p class="card-text text-muted"><?= htmlspecialchars($konsultan['rumahsakit']) ?></p>
-                        <p class="card-text rating">★★★★☆ <span class="text-dark"><?= number_format($konsultan['rating'], 1) ?></span></p>
-                        
+                        <h5 class="card-title"><?= htmlspecialchars($konsultan['consultant_name']) ?></h5>
+                        <p class="card-text text-muted"><?= htmlspecialchars($konsultan['work_location']) ?></p>
+                        <p class="card-text rating">★★★★☆ 
+                        <span class="text-dark"><?= number_format($konsultan['rating'], 1) ?></span>
+                        </p>
                     </div>
                 </div>
             </div>

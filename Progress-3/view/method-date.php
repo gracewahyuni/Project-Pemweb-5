@@ -12,16 +12,16 @@
         <a href="?c=Home&m=index" class="back-button text-dark fs-3 border-0">&#60;</a>
         
         <form method="POST" action="?c=Consultation&m=konfirmasi">
-        <h1 class="method fw-bold mt-3">Metode Konsultasi</h1>
-        <select class="form-select" name="metode" required>
-            <option value="online">Online</option>
-            <option value="offline">Offline</option>
-        </select>
+            <input type="hidden" name="consultant_id" value="<?= $id_konsultan ?>">
+            <h1 class="method fw-bold mt-3">Metode Konsultasi</h1>
+            <select class="form-select" name="metode" required>
+                <option value="online">Online</option>
+                <option value="offline">Offline</option>
+            </select>
 
         <h1 class="schedule fw-bold mt-4">Schedule</h1>
         <div class="input-group mt-2">
-            <input type="text" class="form-control"  name="jadwal" placeholder="20/06/2025" required>
-            <span class="input-group-text">&#128197;</span>
+            <input type="date" class="form-control" name="jadwal" required min="<?= date('Y-m-d') ?>">
         </div>
         
         <button type="submit" class="btn btn-dark w-100 mt-3">Confirm</button>
