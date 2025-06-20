@@ -17,5 +17,5 @@ app.use('/api', consultantRoutes);
 app.use('/api', consultationRoutes);
 
 app.listen(8000, () => {
-    console.log("Server running on http://localhost:8000");
+    console.log("Server running on port 8000");
 });
