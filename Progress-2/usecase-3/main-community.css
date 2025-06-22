@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 430px;
+  margin: 0 auto;
+  background: white;
+  padding-bottom: 70px;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.back-button {
+  text-decoration: none;
+
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.search-bar {
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  outline: none;
+}
+
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.category-icon {
+  width: 55px;
+  padding-top: 60px;
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 15px;
+
+}
+
+.category-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55px;
+  height: 55px;
+  background: grey;
+  border-radius: 50%;
+}
+
+.mind-space {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  background: grey;
+  border-radius: 50%;
+}
+
+.post-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.activity {
+  margin-top: 25px;
+}
+
+.activity-item {
+  background: #f5f5f7;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.bottom-nav {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 430px;
+  margin: 0 auto;
+  background: white;
+  padding: 12px 0;
+  border-top: 1px solid #eee;
+  justify-content: space-around;
+  font-size: 12px;
+  font-weight: 600;
+}

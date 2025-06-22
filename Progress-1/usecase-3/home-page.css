@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* font-family : 'Poppins', sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 300px;
+    height: 550px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.pilihan-container {
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.question {
+    border-top: 2px solid;
+    width: 275px;
+    height: 8px;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+h2 { 
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.option {
+    border: 1px solid;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid;
+}
+
+.nav-item{
+    text-align: center;
+    font-size: 12px;
+    
+}

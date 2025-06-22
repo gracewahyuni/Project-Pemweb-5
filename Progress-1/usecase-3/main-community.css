@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f8f8f8;
+}
+
+/* Container dengan ukuran responsif untuk iPhone 14 Pro Max */
+.container {
+    width: 100%;
+    max-width: 430px;
+    height: 100vh;
+    background: white;
+    padding: 15px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+} 
+
+/* Search Bar */
+.search {
+    display: flex;
+    align-items: center;
+    background: #eee;
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.search input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    outline: none;
+}
+
+/* Category */
+.category {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.category div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 90px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+/* Mind Space */
+.mind-space {
+    display: flex;
+    align-items: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 20px;
+}
+.profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: gray;
+    margin-right: 10px;
+}
+.mind-space input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    outline: none;
+}
+
+/* Posts */
+.post {
+    background: white;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Activity */
+.activity {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.option {
+    height: 40px;
+    background: #eee;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+.nav-item {
+    text-align: center;
+}
+.nav-item i {
+    font-size: 20px;
+}
+.nav-item p {
+    font-size: 12px;
+}
