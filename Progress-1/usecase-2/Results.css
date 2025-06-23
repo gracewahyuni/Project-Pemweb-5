@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.page {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Tombol kembali */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+/* Kontainer utama */
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: calc(100vh - 120px); /* padding atas dan bawah */
+  padding: 0 20px;
+}
+
+.inner-box {
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Ikon */
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+
+/* Teks utama */
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Tombol hasil */
+.result-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.result-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* Navigasi bawah */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  display: flex;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  font-size: 12px;
+  flex: 1;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+}
+.progress-bar {
+  height: 5px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-bar .progress {
+  width: 5%;
+  height: 100%;
+  background-color: black;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 0.3rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.options label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  cursor: pointer;
+  width: 60px;
+}
+
+.options input {
+  display: none;
+}
+
+.options span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.options input:checked + span {
+  background-color: black;
+  color: white;
+}
+
+.nav-item {
+  font-size: 12px;
+  flex: 1;
+  padding: 10px;
+  font-weight: bold;
+}
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.bottom-nav {
+  display: flex;
+  text-align: center;
+}
+

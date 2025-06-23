@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.report-page {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+.report-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/* Report Icon */
+.report-icon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 30px auto;
+}
+
+.doc {
+  width: 80px;
+  height: 100px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.doc.main {
+  z-index: 2;
+  left: 10px;
+}
+
+.doc.left {
+  left: 0;
+  top: 10px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.doc.right {
+  right: 0;
+  top: 10px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+/* Tombol Aksi */
+.action-btn {
+  display: block;
+  width: 75%;
+  margin: 10px auto;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* Navigasi bawah */
+.bottom-nav {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container utama */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Tombol kembali */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+/* Judul dan subjudul */
+.title {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* Catatan */
+.note {
+  font-size: 12px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Tombol mulai */
+.start-btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* Icon placeholder */
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+/* Navigasi bawah */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  display: flex;
+  padding: 10px 0;
+  box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Tombol kembali */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+/* Progress */
+.progress-container {
+  margin-top: 80px;
+}
+
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  color: #333;
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar .progress {
+  width: 5%;
+  height: 100%;
+  background-color: black;
+}
+
+/* Judul pertanyaan */
+.question-title {
+  font-size: 14px;
+  margin: 30px 0 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Card pertanyaan */
+.question {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: 60px;
+}
+
+/* Pilihan */
+.options {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.3rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  flex-wrap: nowrap;
+}
+
+.options label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  cursor: pointer;
+  width: 60px;
+}
+
+.options input {
+  display: none;
+}
+
+.options span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.options input:checked + span {
+  background-color: black;
+  color: white;
+}
+
+/* Pernyataan */
+.statement {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  color: #333;
+}
+
+/* Navigasi bawah */
+.bottom-nav {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  font-size: 12px;
+  flex: 1;
+  padding: 10px;
+  font-weight: bold;
+}

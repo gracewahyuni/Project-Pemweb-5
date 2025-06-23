@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.report-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.doc {
+  width: 80px;
+  height: 100px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.main {
+  z-index: 2;
+  left: 10px;
+}
+
+.left {
+  left: 0;
+  top: 10px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.right {
+  right: 0;
+  top: 10px;
+  z-index: 1;
+  opacity: 0.8;
+}
+.bottom-nav {
+  display: flex;
+  text-align: center;
+}
+
+.nav-item {
+  font-size: 12px;
+  flex: 1;
+  padding: 10px;
+  font-weight: bold;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+}
